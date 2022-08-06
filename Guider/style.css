@@ -1,0 +1,39 @@
+.guider-content_content {
+    font-size: 2rem;
+}
+
+.guider-content_content .table {
+    border: 1px solid #333;
+}
+
+.guider-content_content .table th {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.guider-content_content .table th,
+.guider-content_content .table td {
+    border: 1px solid #333;
+}
+.guider-content_content .title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.guider-content_content .img {
+    align-items: center;
+    text-align: center;
+}
+
+.guider-content_content .img .img-link {
+    min-width: 800px;
+    max-width: 800px;
+}
+/* img-link */
+
+.arrow-hand {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: red;
+    display: block;
+}
