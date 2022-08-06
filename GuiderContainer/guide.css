@@ -1,0 +1,136 @@
+.guider {
+    font-size: 0.8rem;
+    padding-bottom: 100px;
+}
+.guider .guider-menu {
+    text-decoration: none;
+    text-align: center;
+    width: 15%;
+    cursor: pointer;
+}
+
+.guider .guider-header {
+    padding-left: 250px;
+    position: fix !important;
+    z-index: 10;
+    outline: none;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    cursor: pointer;
+    overflow: initial;
+}
+
+.guider .guider-menu_list {
+    list-style: none;
+    cursor: pointer;
+}
+
+.guider .guider-menu_list-item {
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 4px;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.guider .guider-menu_list-item:hover {
+    font-size: 3rem;
+    color: red;
+}
+
+.guider .guider-menu_list .guider-menu_list-item.active {
+    background-color: var(--primary-color);
+    margin-left: 16px;
+    box-shadow: 4px 4px #666;
+    color: white;
+}
+
+.guider .guider-content {
+    text-decoration: none;
+    text-align: left;
+    background-color: azure;
+    border-radius: 20px;
+    width: 80%;
+    padding: 8px 24px;
+    box-shadow: 4px 4px #666;
+}
+
+.guider-content_content {
+    font-size: 2rem;
+}
+
+.guider-content_content .table {
+    border: 1px solid #333;
+}
+
+.guider-content_content .table th {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.guider-content_content .table th,
+.guider-content_content .table td {
+    border: 1px solid #333;
+}
+.guider-content_content .title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.guider-content_content .img {
+    align-items: center;
+    text-align: center;
+}
+
+.guider-content_content .img .img-link {
+    min-width: 800px;
+    max-width: 800px;
+}
+/* img-link */
+
+.arrow-hand {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: red;
+    display: block;
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles */
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+    /* Styles */
+    .guider .guider-menu {
+        width: 25%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .guider .guider-content {
+        width: 100%;
+    }
+}
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+    /* Styles */
+    .guider .guider-menu {
+        width: 15%;
+    }
+
+    .guider .guider-content {
+        width: 80%;
+    }
+
+    .guider-content_content .img .img-link {
+        min-width: 900px;
+        max-width: 900px;
+    }
+}
